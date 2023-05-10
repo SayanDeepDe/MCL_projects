@@ -1,4 +1,4 @@
-%% EMG data
+%% Read all the EMG data
 clc
 clear
 close all

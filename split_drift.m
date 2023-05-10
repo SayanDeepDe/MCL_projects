@@ -1,3 +1,6 @@
+%% This functio is used to split the force, EMG files into episodes of cycles and drifts.
+% It cuts individual cycles, applies the criterion to accept the cyles and
+% make 20 phases for each cycle.
 function [sensor1_cycle,sensor2_cycle,T_sensor_cycle,sensor1_cycle_ave,sensor1_cycle_ave_new,sensor2_cycle_ave,sensor2_cycle_ave_new,T_cycle_ave,T_sensor_cycle_ave,F_cycle_ave,F_cycle_tot_ave,F_cycle_tot_ave_new,T_sensor_drift,sensor1_drift,sensor2_drift,F_drift,T_drift,FT_drift,sensor1_T_drift,sensor2_T_drift]=split_drift(sensor1,sensor2,F_data,filename,ENSL_L,ENSL_R,MVC)
 
 Lt_IMRL=contains(filename,"Lt_IMRL","IgnoreCase",true);

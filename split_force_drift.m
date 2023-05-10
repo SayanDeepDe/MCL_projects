@@ -1,3 +1,4 @@
+%% Split function for force data where all the episodes are individually cut and each individual cycles are analyzed for acceptance in the cyclical episode
 function [F_drift,T_drift,FT_drift]=split_force_drift(F_data,filename,ENSL_L,ENSL_R,MVC)
 
 Lt_IMRL=contains(filename,"Lt_IMRL","IgnoreCase",true);

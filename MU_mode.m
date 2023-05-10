@@ -1,4 +1,4 @@
-
+%% This code is used to compute MU-synergies (intra muscle) stabilizing total force during drifts
 clc
 clear
 close all

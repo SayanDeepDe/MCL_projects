@@ -1,3 +1,4 @@
+%% Makes a new table of cells containing only the accepted trials which has all the force and EMG data (with > critical MU) from both sensors.
 function [match_F_sensor,match_sensor1,match_sensor2, null_sensor1, null_sensor2, L_match]=match(drift_f,sensor1,sensor2,L_drift,L_sensor1,L_sensor2,critical_n_MU)
 
 %% checking empty trials for sensor1

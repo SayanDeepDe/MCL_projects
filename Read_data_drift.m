@@ -1,4 +1,4 @@
-%% Enslaving data
+%% Read all the force data files
 clc
 clear
 close all

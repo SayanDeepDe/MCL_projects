@@ -1,3 +1,4 @@
+%% This code is used to analyze the force data and compute inter-muscle (Force modes) synergies stablizing total force
 clc
 clear
 close all
